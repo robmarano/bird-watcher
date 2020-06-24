@@ -8,7 +8,7 @@ from jinja2 import Environment, PackageLoader, select_autoescape
 application = Flask(__name__)
 
 # set a 'SECRET_KEY' to enable the Flask session cookies
-application.secret_key = 'random development key'
+application.secret_key = 'random development keysssz'
 
 toolbar = DebugToolbarExtension(application)
 
